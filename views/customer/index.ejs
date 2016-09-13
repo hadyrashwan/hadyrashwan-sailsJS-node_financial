@@ -16,6 +16,7 @@
     <td><a href="/customer/show/<%= customer.id %>">Show</a></td>
     <td><a href="/customer/edit/<%= customer.id %>">Edit</a></td>
     <td><a href="/customer/destroy/<%= customer.id %>">Destroy</a></td>
+    <td><a href="/stock/new?owner=<%= customer.id %>">Add Stock</a></td>
     <tr>
 <%  }) %>
 </table>
